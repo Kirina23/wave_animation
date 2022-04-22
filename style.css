@@ -1,0 +1,22 @@
+.header {
+    background: #ffffff;
+	display: flex;
+	}
+
+#wave {
+	height: 300px; 
+	overflow: hidden;
+	flex-grow: 1; 
+	animation: hideshow 10s ease; 
+		}
+.font-10 {
+  fill: #ffffff; 
+  text-shadow: 2px 2px 5px #000000;
+  font: bold 78% Times, serif;
+  transform: scaleY(1.5); /* увеличивает размер текста */
+  opacity: 0.7;
+      }
+	@keyframes hideshow {
+  from { opacity: 0; }
+  to { opacity: 1; }
+} 
